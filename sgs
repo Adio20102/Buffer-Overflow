@@ -1,2 +1,0 @@
-Identify a component that lacks memory protection settings. 
-To accomplish this, we will utilize the mona tool, which can assist in finding the correct module.
