@@ -12,7 +12,7 @@ try:
       s.send(('TRUN / .:/' + offset))
       s.close()
 except:
-      print "Error connecting to server"
+      print "Error connecting to the server"
       sys.exit()                  
                                    
                           
