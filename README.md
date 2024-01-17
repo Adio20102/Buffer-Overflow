@@ -10,6 +10,6 @@
 <p>4)	control over the flow of execution by Overwriting the Instruction Pointer (EIP).
 <p>5) Checking for bad characters.
 <p>6) Finding the Right with no memory protections.
-<p>7) Generating ShellCode gaining access to the target.</p>
+<p>7) Generating ShellCode, gaining access to the target.</p>
 <h1 id="df15" class="nt nu hg be nv nw nx ny nz oa ob oc od oe of og oh oi oj ok ol om on oo op oq bj" data-selectable-paragraph="">Defense &amp; Mitigation</h1>
 <ul class=""><li id="f07b" class="mv mw hg mx b my or na nb nc os ne nf ng ot ni nj nk ou nm nn no ov nq nr ns pc pd pe bj" data-selectable-paragraph="">Implement secure coding practices when developing and building applications, by using secure programming functions.</li><li id="5103" class="mv mw hg mx b my pf na nb nc pg ne nf ng ph ni nj nk pi nm nn no pj nq nr ns pc pd pe bj" data-selectable-paragraph="">Apply proper input validations and sanitizations.</li><li id="4630" class="mv mw hg mx b my pf na nb nc pg ne nf ng ph ni nj nk pi nm nn no pj nq nr ns pc pd pe bj" data-selectable-paragraph="">Implement memory protections like Address Space Layout Randomization (ASLR), Data Execution Prevention (DEP), Structured Exception Handling (SEH).</li></ul>
