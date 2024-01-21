@@ -5,7 +5,7 @@
 
 # Steps of Buffer Overflow Attack
 <p>1) Fuzzing the application to determine the crashing of the application.
-<p>2) Finding the exact location of the crash (called the Offset).
+<p>2) Finding the exact location of the crash (called the offset).
 <p>3) Finding the offset.
 <p>4)	Control over the flow of execution by Overwriting the Instruction Pointer (EIP).
 <p>5) Checking for bad characters.
